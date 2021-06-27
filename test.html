@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>Book COVID-19 Online Test</title>
+    <!-- Js Links  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- CSS Links -->
+    <script src="https://kit.fontawesome.com/c49ea60440.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Homepage -->
+    <div id="hp">
+        <!-- nav-bar start-->
+        <div class="navbar">
+          <a href="#" class="logo">COVID-19</a>
+          <div class="nav-list">
+            <ul>
+              <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="./test.html" class="nav-link"  target="_blank">Covid Test</a></li>
+              <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="./index.html#contact" class="nav-link">Contact</a></li>
+              <li class="nav-item"><img src="./images/moon.png" alt="moon" id="iconm"></li>
+            </ul>
+          </div>
+        </div>
+          <!-- Nav-bar end -->
+    </div>
+   <div class="form">
+       <div class="form-cont">
+        <div><p>Book COVID-19 Test Online</p></div>
+        <form action="" method="POST">
+             <div class="input">
+                 <input type="text" name="Name" placeholder="Enter your Name" id="fname" required>
+             </div>
+             <div class="input">
+                 <input type="email" name="email" placeholder="Enter your Email" id="email" required>
+             </div>
+             <div class="input">
+                 <input type="tel" name="number" placeholder="Enter mobile number" id="number" required>
+             </div>
+             <div class="input">
+                 <select name="Region" id="Region">
+                     <option value="#" disabled selected >Select your Region</option>
+                     <option value="">Aurangapura</option>
+                     <option value="">Chikalthana</option>
+                     <option value="">Garkheda</option>
+                     <option value="">Mukundwadi</option>
+                     <option value="">CIDCO</option>
+                     <option value="">HUDCO</option>
+                 </select>
+             </div>
+             <div class="input">
+                 <input type="text" name="address" id="address" placeholder="Enter your Address" required>
+             </div>
+             <div class="input">
+                 <label for="address-proof">Attach current address proof* <span class="fformat">(JPEG/PNG/JPG/PDF)</span></label>
+                 <input type="file" name="address-proof" id="address-proof" type="file" accept="image/jpeg, image/png, image/gif"/>   
+             </div>
+             <button type="submit">Submit</button>
+          </form>
+       </div>
+   </div>
+    <footer id="footer"> 
+      <div class="quick-links">
+        <p id="title">Quick Links :</p>
+        <ul>
+          <li><a href="./index.html" class="hover">Home</a></li>
+          <li><a href="./test.html" target="_blank" class="hover">Covid Test</a></li>
+          <li><a href="./about.html" class="hover">About</a></li>
+          <li><a href="./index.html#contact" class="hover">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sm-links">
+        <p id="title">Follow us on :</p>
+        <i class="fa fa-github fa-lg icon gh"  aria-hidden="true"></i>
+        <i class="fa fa-facebook fa-lg icon fb"  aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-lg icon ig"  aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-lg icon tw"  aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-lg icon lk"  aria-hidden="true"></i>
+        <i class="fa fa-database fa-lg icon db"  aria-hidden="true"></i>
+      </div>
+    </footer>
+  </div> 
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- theme -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>COVID-19 Tracker</title>
+    <!-- Js Links  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- CSS Links -->
+    <script src="https://kit.fontawesome.com/c49ea60440.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Homepage -->
+    <div id="hp">
+        <!-- nav-bar start-->
+        <div class="navbar">
+          <a href="#" class="logo">COVID-19</a>
+          <div class="nav-list">
+            <ul>
+              <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="./test.html" class="nav-link"  target="_blank">Covid Test</a></li>
+              <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="./index.html#contact" class="nav-link">Contact</a></li>
+              <li class="nav-item"><img src="./images/moon.png" alt="moon" id="iconm"></li>
+            </ul>
+          </div>
+        </div>
+          <!-- Nav-bar end -->
+        <div class="main">
+          <div class="heading">
+            <h1>COVID-19 updates in India</h1>
+          </div>
+          <!-- Table Starts-->
+          <div class="divtable">
+            <table id="table">
+            <thead>
+              <th class="thh">State</th>
+              <th class="thh">Total Confirmed</th>
+              <th class="thh">Total Active</th>
+              <th class="thh">Total Recovered</th>
+              <th class="thh">Total Deaths</th>
+              <!-- <th>Last Updated</th> -->
+            </thead>
+          </table>
+          </div>
+          <!-- table end   -->
+        </div>
+    </div>
+    <div id="contact">
+      <div class="contact-cont">
+        <p class="pc">Contact Us</p>
+        <form action="">
+          <div class="input">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+          </div>
+          <div class="input">
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="input">
+            <textarea name="cmt" id="cmt" cols="30" rows="10" placeholder="Your message" required></textarea>
+          </div>
+          <div>
+            <button type="submit" class="input">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="news">
+        <p class="pc">Join our Newsletter<p>
+        <span class="fformat">Daily updates of covid-19 status of India</span>
+        <input type="email" id="email-nw" name="email-nw" placeholder="abc@email.com" required>
+        <button type="submit">Get Updates</button>
+      </div>
+    </div>
+    <footer id="footer"> 
+      <div class="quick-links">
+        <p id="title">Quick Links :</p>
+        <ul>
+          <li><a href="#hp" class="hover">Home</a></li>
+          <li><a href="./test.html" target="_blank" class="hover">Covid Test</a></li>
+          <li><a href="./about.html" class="hover">About</a></li>
+          <li><a href="./index.html#contact" class="hover">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sm-links">
+        <p id="title">Follow us on :</p>
+        <a href="#"><i class="fa fa-github fa-lg icon gh"  aria-hidden="true"></i></a>
+        <i class="fa fa-facebook fa-lg icon fb"  aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-lg icon ig"  aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-lg icon tw"  aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-lg icon lk"  aria-hidden="true"></i>
+        <a href="https://api.covid19india.org/"><i class="fa fa-database fa-lg icon db"  aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+  </div> 
+</body>
+</html>
