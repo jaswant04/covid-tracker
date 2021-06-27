@@ -382,13 +382,12 @@ footer{
         padding: 0.4em;
     }
     .s-cont{
-        margin: .7em;
+        margin: 1em;
         max-width: 90vw;
         overflow-x: scroll;
     }
     .s-cont img{
         width: 100%;
-        max-width: 100px;
         height: auto;
     }
 }
