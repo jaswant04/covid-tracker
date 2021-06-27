@@ -383,11 +383,12 @@ footer{
     }
     .s-cont{
         margin: .7em;
-        max-width: 90%;
+        max-width: 90vw;
+        overflow-x: scroll;
     }
     .s-cont img{
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        max-width: 100px;
+        height: auto;
     }
-    
 }
