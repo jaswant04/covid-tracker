@@ -357,6 +357,9 @@ footer{
     .nav-item{
         margin: 0.5em;
     }
+    .divtable{
+        width: 95%;
+    }
     table{
         margin: 1em 0.2em;
         line-height: 1em;
@@ -383,7 +386,8 @@ footer{
     }
     .s-cont{
         width: 100vw;
-        margin: 1em;
+        margin: .5em;
+        padding: 1em;
         overflow-x: scroll;
     }
     .s-cont img{
