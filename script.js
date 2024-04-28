@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var url  = "https://api.covid19india.org/data.json";
+    var url  = "https://data.covid19india.org/v4/min/data.min.json";
     var proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
     $.getJSON(proxyUrl + url, function(data){
