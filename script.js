@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-    var url  = "https://data.covid19india.org/v4/min/data.min.json";
-    var proxyUrl = "https://cors-anywhere.herokuapp.com/";
+    var url  = "https://data.covid19india.org/data.json";
+    // var proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
-    $.getJSON(proxyUrl + url, function(data){
+    $.getJSON( url, function(data){
 
         var table = document.getElementById("table");
-
+        console.log(data);
         for( var i=1; i<(data['statewise'].length); i++)
         {
 
