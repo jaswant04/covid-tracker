@@ -16,10 +16,13 @@ The COVID Tracker App is a web application built to provide users with real-time
 
 ## Installation
 1. Clone the repository:
-  git clone https://github.com/your-username/covid-tracker-app.git
-2. Navigate to the project directory:
-  cd covid-tracker-app
-3. Open the index.html file in a web browser.
+```bash
+  git clone https://github.com/jaswant04/covid-tracker-app.git
+```
+3. Navigate to the project directory:
+
+```bash cd covid-tracker-app ```
+5. Open the index.html file in a web browser.
 
 ## Contributing
 Contributions are welcome! Please fork the repository, create a new branch, make your changes, and submit a pull request.
