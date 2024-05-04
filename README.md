@@ -21,8 +21,10 @@ The COVID Tracker App is a web application built to provide users with real-time
 ```
 3. Navigate to the project directory:
 
-```bash cd covid-tracker-app ```
-5. Open the index.html file in a web browser.
+```bash 
+cd covid-tracker-app
+```
+3. Open the index.html file in a web browser.
 
 ## Contributing
 Contributions are welcome! Please fork the repository, create a new branch, make your changes, and submit a pull request.
